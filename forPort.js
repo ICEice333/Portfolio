@@ -1,3 +1,5 @@
+window.onload = pageLoad;
+
 function pageLoad() {
     let getdrawpic = new XMLHttpRequest();
     getdrawpic.open("GET", "drawpic.json");
